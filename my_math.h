@@ -32,5 +32,8 @@ float arctan(float x);
 float tangente(float x);
 float expo(float x);
 float get_delta(float a, float b, float c);
+
+
 polynomial *derive_polynomial(polynomial *poly);
+polynomial *integrate_polynomial(polynomial *poly, float C);
 void show_poly(polynomial *poly);
