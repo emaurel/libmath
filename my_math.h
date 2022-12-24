@@ -5,16 +5,20 @@
 ** my_math.h
 */
 #include <stdio.h>
+#include <stdlib.h>
 #pragma once
+
 
 #define pi 3.1415926535
 #define e 2.7182818284
 
 
 typedef struct {
-    float start;
-    float end;
-} range;
+    int degree;
+    float *coefs;
+} polynomial;
+
+
 
 float factorial(float x);
 float power(float n, int p);
@@ -27,3 +31,6 @@ int is_eq(float a, float b);
 float arctan(float x);
 float tangente(float x);
 float expo(float x);
+float get_delta(float a, float b, float c);
+polynomial *derive_polynomial(polynomial *poly);
+void show_poly(polynomial *poly);
