@@ -12,7 +12,6 @@
 #define pi 3.1415926535
 #define e 2.7182818284
 
-
 typedef struct {
     int degree;
     float *coefs;
@@ -37,3 +36,7 @@ float get_delta(float a, float b, float c);
 polynomial *derive_polynomial(polynomial *poly);
 polynomial *integrate_polynomial(polynomial *poly, float C);
 void show_poly(polynomial *poly);
+float mean(float *lst, int len);
+float variance(float *lst, int len);
+float min(float *lst, int len);
+float max(float *lst, int len);
