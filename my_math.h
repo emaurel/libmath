@@ -32,6 +32,8 @@ float tangente(float x);
 float exponential(float x);
 float get_delta(float a, float b, float c);
 float logarithm(float x);
+float log_base(float x, float base);
+
 
 polynomial *derive_polynomial(polynomial *poly);
 polynomial *integrate_polynomial(polynomial *poly, float C);
