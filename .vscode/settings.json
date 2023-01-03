@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "max.C": "cpp"
+        "max.C": "cpp",
+        "exponential.C": "cpp"
     }
 }

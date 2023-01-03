@@ -29,9 +29,9 @@ float arcsin(float x);
 int is_eq(float a, float b);
 float arctan(float x);
 float tangente(float x);
-float expo(float x);
+float exponential(float x);
 float get_delta(float a, float b, float c);
-
+float logarithm(float x);
 
 polynomial *derive_polynomial(polynomial *poly);
 polynomial *integrate_polynomial(polynomial *poly, float C);
