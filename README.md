@@ -3,4 +3,4 @@ my own libmath
 
 ## WARNING
 
-functions such as logarithm, exponential and arctan don't have a good precision (O(10³))
+functions such as logarithm, exponential and arctan tend to loose precision as the input grows (O(10³))
