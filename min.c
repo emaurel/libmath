@@ -7,12 +7,8 @@
 
 #include "my_math.h"
 
-float min(float *lst, int len)
+float min(float a, float b)
 {
-    float min = lst[0];
-    for (int i = 0; i < len; i++) {
-        if (lst[i] < min)
-            min = lst[i];
-    }
-    return min;
+    float res = a < b ? a : b;
+    return res;
 }

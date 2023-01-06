@@ -39,10 +39,13 @@ polynomial *derive_polynomial(polynomial *poly);
 polynomial *integrate_polynomial(polynomial *poly, float C);
 void show_poly(polynomial *poly);
 float eval_polynomial(polynomial *poly, float val);
-
+polynomial *polynomial_sum(polynomial *poly1, polynomial *poly2);
 
 float mean(float *lst, int len);
 float variance(float *lst, int len);
-float min(float *lst, int len);
-float max(float *lst, int len);
+float min_lst(float *lst, int len);
+float max_lst(float *lst, int len);
 float std_variation(float *lst, int len);
+
+float max(float a, float b);
+float min(float a, float b);
