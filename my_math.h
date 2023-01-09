@@ -41,6 +41,7 @@ void show_poly(polynomial *poly);
 float eval_polynomial(polynomial *poly, float val);
 polynomial *polynomial_sum(polynomial *poly1, polynomial *poly2);
 int polynomial_min_degree(polynomial *poly);
+polynomial *polynomial_product(polynomial *poly1, polynomial *poly2);
 
 
 float mean(float *lst, int len);
