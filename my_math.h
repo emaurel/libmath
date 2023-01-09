@@ -40,6 +40,8 @@ polynomial *integrate_polynomial(polynomial *poly, float C);
 void show_poly(polynomial *poly);
 float eval_polynomial(polynomial *poly, float val);
 polynomial *polynomial_sum(polynomial *poly1, polynomial *poly2);
+int polynomial_min_degree(polynomial *poly);
+
 
 float mean(float *lst, int len);
 float variance(float *lst, int len);
