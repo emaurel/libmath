@@ -42,7 +42,9 @@ float eval_polynomial(polynomial *poly, float val);
 polynomial *polynomial_sum(polynomial *poly1, polynomial *poly2);
 int polynomial_min_degree(polynomial *poly);
 polynomial *polynomial_product(polynomial *poly1, polynomial *poly2);
-
+float find_root_newton(polynomial *poly, float start_value, float precision);
+float find_root_bisection(polynomial *poly, float start_value, float end_value, float precision);
+float find_root_secant(polynomial *poly, float start_value, float end_value, float precision);
 
 float mean(float *lst, int len);
 float variance(float *lst, int len);
@@ -52,3 +54,5 @@ float std_variation(float *lst, int len);
 
 float max(float a, float b);
 float min(float a, float b);
+float absol(float x);
+int sign(float x);
